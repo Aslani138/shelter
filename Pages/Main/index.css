@@ -34,6 +34,10 @@
   color: #ffffff;
 }
 
+.logo:hover {
+  cursor: pointer;
+}
+
 header {
   width: 1200px;
   display: flex;
@@ -57,7 +61,7 @@ header {
   cursor: pointer;
 }
 
-.about-nav-second:hover  {
+.about-nav-second:hover {
   border-bottom: 3px solid #f1cdb3;
   padding-bottom: 3px;
   color: white;
@@ -70,6 +74,14 @@ header {
   height: 26px;
   left: 795px;
   top: 77px;
+}
+.about {
+  position: absolute;
+  height: 588px;
+  left: 0%;
+  right: 0%;
+  top: 908px;
+  background: #ffffff;
 }
 
 .nav-menu {
@@ -140,6 +152,11 @@ header {
   bottom: 0px;
   background: #f1cdb3;
   border-radius: 100px;
+}
+
+.start-screen-button:hover {
+  cursor: pointer;
+  background: #ec9e66;
 }
 
 .start-screen-button p {
@@ -217,18 +234,11 @@ header {
   height: 96px;
   left: 0px;
   top: 115px;
-
-  /* paragraph-l */
-
   font-family: "Arial";
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
-  line-height: 160%;
-  /* or 24px */
-
-  /* color-dark-xl */
-
+  line-height: 24px;
   color: #4c4c4c;
 }
 
@@ -238,21 +248,13 @@ header {
   height: 144px;
   left: 0px;
   top: 236px;
-
-  /* paragraph-l */
-
   font-family: "Arial";
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
-  line-height: 160%;
-  /* or 24px */
-
+  line-height: 24px;
   display: flex;
   align-items: center;
-
-  /* color-dark-xl */
-
   color: #4c4c4c;
 }
 
@@ -262,9 +264,6 @@ header {
   left: 0%;
   right: 0%;
   top: 1496px;
-
-  /* color-light-l */
-
   background: #f6f6f6;
 }
 
@@ -282,23 +281,15 @@ header {
   height: 90px;
   left: 400px;
   top: 0px;
-
-  /* h3 */
-
   font-family: "Georgia";
   font-style: normal;
   font-weight: 400;
   font-size: 35px;
-  line-height: 130%;
-  /* or 45px */
-
+  line-height: 45px;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-
-  /* color-dark-l */
-
   color: #545454;
 }
 
@@ -319,12 +310,16 @@ header {
   flex-direction: column;
   align-items: center;
   padding: 23px 19px;
-
   position: absolute;
   width: 52px;
   height: 52px;
   left: 0px;
   top: 192px;
+}
+
+.pets-slider-left:hover {
+  background-color: #ec9e66;
+  cursor: pointer;
 }
 
 .pets-cards1 {
@@ -383,6 +378,11 @@ header {
   border-radius: 100px;
 }
 
+.pets-slider-right:hover {
+  background-color: #ec9e66;
+  cursor: pointer;
+}
+
 .pets-name {
   position: absolute;
   font-family: "Georgia";
@@ -417,6 +417,11 @@ header {
   left: 39px;
 }
 
+.pets-button:hover {
+  background-color: #ec9e66;
+  cursor: pointer;
+}
+
 .pets-button p {
   position: absolute;
   left: 24.06%;
@@ -449,6 +454,11 @@ header {
   border-radius: 100px;
 }
 
+.pets-button-primary:hover {
+  background-color: #ec9e66;
+  cursor: pointer;
+}
+
 .pets-button-primary p {
   position: absolute;
   left: 44px;
@@ -471,6 +481,12 @@ header {
   align-self: center;
   flex-grow: 0;
   margin: 10px 0px;
+}
+
+.pets-card-img:hover {
+  cursor: pointer;
+  transition: transform .2s;
+  transform: scale(1.5);
 }
 
 .help {
