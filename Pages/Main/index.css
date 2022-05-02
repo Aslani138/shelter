@@ -4,7 +4,10 @@
 
 .main {
   background-image: url(../../Assets/main-background.png);
-  height: 908px;
+  position: relative;
+  width: 1280px;
+  height: 3796px;
+  margin: auto;
 }
 
 .logo h1 {
@@ -41,37 +44,41 @@ header {
 }
 
 .nav-menu ul li {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0px;
   font-family: "Arial";
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
-  line-height: 24px;
+  line-height: 160%;
   color: #cdcdcd;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 10px 0px;
+  padding-right: 35px;
+}
+
+.nav-menu ul li :hover {
+  cursor: pointer;
+}
+
+.about-nav-second:hover  {
+  border-bottom: 3px solid #f1cdb3;
+  padding-bottom: 3px;
+  color: white;
 }
 
 .nav-menu ul {
   display: flex;
+  position: absolute;
+  width: 480px;
+  height: 26px;
+  left: 795px;
+  top: 77px;
 }
 
 .nav-menu {
   display: flex;
 }
 
-.about {
-  flex: none;
-  order: 1;
-  align-self: stretch;
-  flex-grow: 0;
-  margin: 0px 0px;
-  border-bottom: 2px solid var(--color-primary);
+.about-nav {
+  border-bottom: 3px solid #f1cdb3;
+  padding-bottom: 3px;
 }
 
 .start-screen {
@@ -160,15 +167,6 @@ header {
   left: calc(50% - 698px / 2 + 251px);
   bottom: 0px;
   background: url(../../Assets/main-dog.png);
-}
-
-.about {
-  position: absolute;
-  height: 588px;
-  left: 0%;
-  right: 0%;
-  top: 908px;
-  background: #ffffff;
 }
 
 .about-content {
@@ -476,189 +474,187 @@ header {
 }
 
 .help {
-    position: absolute;
-    height: 611px;
-    left: 0%;
-    right: 0%;
-    top: 2373px;
-    background: #FFFFFF;
+  position: absolute;
+  height: 611px;
+  left: 0%;
+  right: 0%;
+  top: 2373px;
+  background: #ffffff;
 }
 
 .help-content {
-    position: absolute;
-    width: 1200px;
-    height: 431px;
-    left: calc(50% - 1200px/2);
-    top: 80px;
+  position: absolute;
+  width: 1200px;
+  height: 431px;
+  left: calc(50% - 1200px / 2);
+  top: 80px;
 }
 
-
 .help-content-header {
-    position: absolute;
-    width: 308px;
-    height: 90px;
-    left: 446px;
-    top: 0px;
-    font-family: 'Georgia';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 35px;
-    line-height: 130%;
-    white-space: nowrap;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: #545454;
+  position: absolute;
+  width: 308px;
+  height: 90px;
+  left: 446px;
+  top: 0px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #545454;
 }
 
 .help-list {
-    display: flex;
-    margin-top: 100px;
-    flex-wrap: wrap;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  display: flex;
+  margin-top: 100px;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .help-list-item {
-    width: 11%;
-    margin: 34px 54px;
+  width: 11%;
+  margin: 34px 54px;
 }
 
 .help-list-item p {
-    font-family: 'Georgia';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 115%;
-    letter-spacing: 0.06em;
-    color: #545454;
-    white-space: nowrap;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #545454;
+  white-space: nowrap;
 }
 
 .donation {
-    position: absolute;
-    width: 1280px;
-    margin: 0 auto;
-    height: 462px;
-    left: 0%;
-    right: 0%;
-    top: 2984px;
-    background: #F6F6F6;
+  position: absolute;
+  width: 1280px;
+  margin: 0 auto;
+  height: 462px;
+  left: 0%;
+  right: 0%;
+  top: 2984px;
+  background: #f6f6f6;
 }
 
 .donation-content {
-    position: absolute;
-    width: 915px;
-    height: 282px;
-    left: calc(50% - 915px/2 + 0.5px);
-    top: 80px;
+  position: absolute;
+  width: 915px;
+  height: 282px;
+  left: calc(50% - 915px / 2 + 0.5px);
+  top: 80px;
 }
 
-.donation-dog{
-    position: absolute;
-    width: 505px;
-    height: 261px;
-    left: 0px;
-    top: 11px;
-    background: url(../../assets/dontation-puppy.png);
+.donation-dog {
+  position: absolute;
+  width: 505px;
+  height: 261px;
+  left: 0px;
+  top: 11px;
+  background: url(../../assets/dontation-puppy.png);
 }
 
 .donation-text {
-    position: absolute;
-    width: 380px;
-    height: 282px;
-    left: 535px;
-    top: 0px;
+  position: absolute;
+  width: 380px;
+  height: 282px;
+  left: 535px;
+  top: 0px;
 }
 
 .donation-text h3 {
-    position: absolute;
-    width: 300px;
-    height: 90px;
-    font-family: 'Georgia';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 35px;
-    line-height: 130%;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.06em;
-    margin: auto;
-    color: #545454;
+  position: absolute;
+  width: 300px;
+  height: 90px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  margin: auto;
+  color: #545454;
 }
 
-.donation-text-header{
-    position: absolute;
-    width: 307px;
-    height: 17px;
-    left: 0px;
-    top: 110px;
-    white-space: nowrap;
-    margin: auto;
-    font-family: 'Georgia';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 110%;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.06em;
-    color: #545454;
+.donation-text-header {
+  position: absolute;
+  width: 307px;
+  height: 17px;
+  left: 0px;
+  top: 110px;
+  white-space: nowrap;
+  margin: auto;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 110%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #545454;
 }
 
 .donation-text-main {
-    position: absolute;
-    width: 380px;
-    height: 72px;
-    left: 0px;
-    top: 210px;
-    font-family: 'Arial';
-    font-style: italic;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
-    display: flex;
-    align-items: center;
-    color: #B2B2B2;
+  position: absolute;
+  width: 380px;
+  height: 72px;
+  left: 0px;
+  top: 210px;
+  font-family: "Arial";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #b2b2b2;
 }
 
-.credit-card{
-    align-items: center;
-    position: absolute;
-    width: 349px;
-    height: 43px;
-    top: 147px;
-    margin: 0 auto;
-    background: #F1CDB3;
-    border-radius: 9px;
+.credit-card {
+  align-items: center;
+  position: absolute;
+  width: 349px;
+  height: 43px;
+  top: 147px;
+  margin: 0 auto;
+  background: #f1cdb3;
+  border-radius: 9px;
 }
 
 .credit-card img {
-    position: absolute;
-    width: 30px;
-    height: 23px;
-    left: 15px;
-    top: 10px;
+  position: absolute;
+  width: 30px;
+  height: 23px;
+  left: 15px;
+  top: 10px;
 }
 
-.credit-card-number{
-    position: absolute;
-    width: 274px;
-    height: 23px;
-    left: 60px;
-    top: 10px;
-    white-space: nowrap;
-    font-family: 'Georgia';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 115%;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.06em;
-    color: #545454;
+.credit-card-number {
+  position: absolute;
+  width: 274px;
+  height: 23px;
+  left: 60px;
+  top: 10px;
+  white-space: nowrap;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #545454;
 }
-
