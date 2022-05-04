@@ -57,6 +57,11 @@ header {
   padding-right: 35px;
 }
 
+.nav-menu ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .nav-menu ul li :hover {
   cursor: pointer;
 }
@@ -152,6 +157,8 @@ header {
   bottom: 0px;
   background: #f1cdb3;
   border-radius: 100px;
+  text-decoration: none;
+  color: inherit;
 }
 
 .start-screen-button:hover {
@@ -447,11 +454,9 @@ header {
   height: 52px;
   left: 470px;
   top: 645px;
-
-  /* color-primary */
-
   background: #f1cdb3;
   border-radius: 100px;
+  text-decoration: none;
 }
 
 .pets-button-primary:hover {
