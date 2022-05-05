@@ -55,6 +55,7 @@ header {
   line-height: 160%;
   color: #cdcdcd;
   padding-right: 35px;
+  text-decoration: none;
 }
 
 .nav-menu ul li a {
@@ -808,4 +809,9 @@ footer {
   left: calc(50% - 300px / 2 + 450px);
   top: 0px;
   background: url(../../Assets/footer-puppy.png);
+}
+
+#footer-links {
+  display: flex;
+  text-decoration: none;
 }
