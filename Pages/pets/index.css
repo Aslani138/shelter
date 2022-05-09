@@ -1,3 +1,7 @@
+main {
+  width: 1280px;
+  margin: auto;
+}
 .head-container {
   width: 1200px;
   height: 60px;
@@ -5,6 +9,11 @@
   display: flex;
   justify-content: space-between;
   background: #ffffff;
+}
+
+.head-container a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .logo {
@@ -399,4 +408,41 @@ footer {
   letter-spacing: 0.06em;
   color: #f1cdb3;
   margin-left: 20px;
+}
+
+.card-container-element img:hover {
+  cursor: pointer;
+  transition: transform 0.2s;
+  transform: scale(1.5);
+}
+
+.card-container-button:hover {
+  background-color: #ec9e66;
+  cursor: pointer;
+}
+
+.right-navigation:hover {
+  background-color: #ec9e66;
+  cursor: pointer;
+}
+
+.double-right-navigation:hover {
+  background-color: #ec9e66;
+  cursor: pointer;
+}
+
+.navigation-page:hover {
+  cursor: pointer;
+}
+
+.left-navigation:hover {
+  cursor: pointer;
+}
+
+.double-left-navigation:hover {
+  cursor: pointer;
+}
+
+#location-text-bottom {
+  padding-top: 11px;
 }

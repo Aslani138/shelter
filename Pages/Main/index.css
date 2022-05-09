@@ -47,6 +47,11 @@ header {
   padding-right: 40px;
 }
 
+header a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .nav-menu ul li {
   font-family: "Arial";
   font-style: normal;
@@ -378,9 +383,6 @@ header {
   height: 52px;
   left: 1146px;
   top: 191px;
-
-  /* color-primary */
-
   border: 2px solid #f1cdb3;
   box-sizing: border-box;
   border-radius: 100px;
@@ -402,15 +404,10 @@ header {
   height: 23px;
   left: 97px;
   top: 300px;
-  /* identical to box height */
-
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-
-  /* color-dark-l */
-
   color: #545454;
 }
 
