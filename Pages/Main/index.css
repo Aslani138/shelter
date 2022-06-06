@@ -1111,7 +1111,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .nav-menu {
     display: none;
   }
@@ -1312,5 +1312,118 @@ footer {
     color: #545454;
     margin: auto;
     margin-bottom: 20px;
+  }
+
+  .donation-text {
+    width: 100%;
+    height: auto;
+  }
+
+  .donation-text-header {
+    width: 300px;
+    height: 24px;
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #545454;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .credit-card {
+    width: 281px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .credit-card-number a {
+    width: 206px;
+    height: 17px;
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin-left: 15px;
+  }
+
+  .credit-card img {
+    margin-left: 15px;
+  }
+
+  .donation-text-main {
+    width: 280px;
+    height: 90px;
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #b2b2b2;
+    margin: auto;
+  }
+
+  .donation-dog {
+    width: 260px;
+    height: 135.2px;
+    background-size: cover;
+    margin: auto;
+  }
+
+  .footer-mobile {
+    flex-direction: column;
+  }
+  .footer-cotacts .heading {
+    width: 278px;
+    height: 64px;
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    margin: auto;
+  }
+
+  .footer-cotacts {
+    width: 100%;
+  }
+
+  .footer-contacts-mail {
+    margin-left: 34px;
+  }
+
+  .footer-contacts-phone {
+    margin-left: 40px;
+  }
+
+  .footer-locations .heading {
+    width: 270px;
+    height: 64px;
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    margin-left: 25px;
+  }
+
+  .footer-locations-pin {
+    margin-left: 10px;
+  }
+
+  .footer-locations-pin {
+    margin-left: 10px;
+  }
+
+  .footer-mobile {
+    margin-bottom: 40px;
   }
 }
