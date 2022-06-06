@@ -95,10 +95,6 @@ header a {
   background: #ffffff;
 }
 
-.nav-menu {
-  display: flex;
-}
-
 .about-nav {
   border-bottom: 3px solid #f1cdb3;
   padding-bottom: 3px;
@@ -288,6 +284,10 @@ header a {
   top: 80px;
 }
 
+.donation-content2 {
+  display: none;
+}
+
 .pets-heading {
   position: absolute;
   width: 400px;
@@ -455,6 +455,10 @@ header a {
   background: #f1cdb3;
   border-radius: 100px;
   text-decoration: none;
+}
+
+.about-content2 {
+  display: none;
 }
 
 .pets-button-primary:hover {
@@ -811,4 +815,502 @@ footer {
 #footer-links {
   display: flex;
   text-decoration: none;
+}
+
+@media screen and (max-width: 1280px) {
+  header {
+    width: 100%;
+    position: relative;
+  }
+
+  .main {
+    width: 100%;
+    height: auto;
+  }
+
+  .nav-menu ul {
+    display: flex;
+    position: inherit;
+  }
+
+  .nav-menu {
+    margin-right: 30px;
+  }
+
+  .start-screen {
+    width: 100%;
+    left: 99px;
+    position: static;
+    margin-left: 99px;
+    margin-top: 60px;
+    height: auto;
+  }
+
+  .start-screen-puppy {
+    position: static;
+    width: 569px;
+    height: 593px;
+    margin-top: 100px;
+  }
+
+  .start-screen-content {
+    position: static;
+    margin-left: 55px;
+  }
+
+  .start-screen-heading {
+    position: static;
+    margin-bottom: 42px;
+  }
+
+  .start-screen-subheading {
+    position: static;
+  }
+  .start-screen-button {
+    position: static;
+    margin-left: 126px;
+    margin-top: 42px;
+  }
+
+  .about {
+    position: static;
+    height: auto;
+  }
+
+  .about-content {
+    position: static;
+    display: none;
+  }
+
+  .about-pets {
+    position: static;
+    margin: auto;
+    margin-top: 80px;
+  }
+
+  .about-content-text {
+    position: static;
+    margin: auto;
+  }
+
+  .about-content-head {
+    position: static;
+    margin-bottom: 25px;
+  }
+
+  .about-content-firstSubhead {
+    position: static;
+    margin-bottom: 25px;
+  }
+
+  .about-content-secondSubhead {
+    position: static;
+  }
+
+  .pets {
+    position: static;
+  }
+
+  .about-content2 {
+    display: block;
+    background: #ffffff;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+
+  .pets-content {
+    position: relative;
+    padding-top: 80px;
+    padding-left: 30px;
+    top: 0;
+    left: 0;
+  }
+
+  .pets-heading {
+    margin-left: 154px;
+    margin-bottom: 60px;
+    position: static;
+  }
+
+  .pets-slider {
+    position: static;
+    width: 100%;
+  }
+
+  .pets-button-primary {
+    left: 0;
+    top: auto;
+    margin-left: 224px;
+    margin-top: 60px;
+  }
+
+  .pets-slider-left {
+    top: 55%;
+    margin-left: 30px;
+  }
+
+  .pets-cards2 {
+    position: static;
+  }
+
+  .pets-cards3 {
+    position: static;
+    display: none;
+  }
+
+  .pets-name {
+    position: static;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .pets-slider-right {
+    top: 54.1%;
+    left: 56%;
+  }
+
+  .help {
+    position: static;
+    height: auto;
+  }
+
+  .pets-cards1 {
+    position: static;
+    margin-right: 40px;
+    margin-left: 64px;
+  }
+
+  .pets-button {
+    margin-top: 30px;
+    margin-left: 41.5px;
+    margin-bottom: 30px;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  .donation {
+    position: static;
+    height: auto;
+    width: 100%;
+  }
+
+  footer {
+    position: static;
+    height: auto;
+  }
+
+  .help-content {
+    position: static;
+    height: auto;
+    width: 100%;
+    padding-bottom: 100px;
+  }
+
+  .help-content-header {
+    padding-top: 80px;
+    position: static;
+    margin: auto;
+  }
+
+  .help-list {
+    width: 630px;
+    margin: auto;
+    justify-content: space-around;
+  }
+
+  .help-list-item {
+    width: 170px;
+    margin: 0;
+    margin-top: 60px;
+  }
+
+  .donation-content {
+    display: none;
+  }
+  .donation-content2 {
+    display: block;
+    padding-bottom: 100px;
+  }
+
+  .donation-dog {
+    position: static;
+    margin: auto;
+  }
+
+  .donation-text {
+    position: static;
+    padding-top: 80px;
+    margin: auto;
+    margin-bottom: 60px;
+  }
+
+  .donation-text h3 {
+    position: static;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .donation-text-header {
+    position: static;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .donation-text-main {
+    position: static;
+  }
+
+  .credit-card {
+    position: static;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .credit-card img {
+    position: static;
+  }
+
+  .credit-card-number {
+    position: static;
+  }
+
+  #creditCardcnt {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+  }
+
+  .footer-content {
+    position: static;
+    height: auto;
+    padding-top: 30px;
+    width: 100%;
+  }
+
+  .footer-cotacts {
+    position: static;
+  }
+
+  .footer-locations {
+    position: static;
+  }
+
+  .footer-puppy {
+    position: static;
+    margin: auto;
+  }
+
+  .footer-mobile {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 65px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-menu {
+    display: none;
+  }
+
+  header {
+    padding: 0;
+    padding-top: 30px;
+    padding-left: 10px;
+  }
+
+  .start-screen {
+    margin: 0;
+    margin-top: 60px;
+  }
+
+  .start-screen-content {
+    margin: 0;
+    width: 100%;
+    margin-bottom: 105px;
+  }
+
+  .start-screen-heading {
+    width: 200px;
+    height: 64px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    margin: auto;
+    margin-bottom: 42px;
+  }
+
+  .start-screen-subheading {
+    width: 291px;
+    height: 96px;
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #cdcdcd;
+    margin: auto;
+    margin-bottom: 42px;
+  }
+
+  .start-screen-button {
+    margin: auto;
+  }
+
+  .start-screen-puppy {
+    width: 260px;
+    background-size: cover;
+    height: 272px;
+    margin: 0;
+    margin-left: 50px;
+  }
+
+  .about-content-head {
+    width: 293px;
+    height: 64px;
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin: auto;
+    margin-bottom: 25px;
+    padding-left: 55px;
+  }
+
+  .about-content-firstSubhead {
+    width: 270px;
+    height: 144px;
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #4c4c4c;
+    margin: auto;
+    margin-bottom: 22px;
+  }
+
+  .about-content-text {
+    width: 100%;
+    height: auto;
+  }
+
+  .about-content-secondSubhead {
+    width: 270px;
+    height: 239px;
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #4c4c4c;
+    margin: auto;
+  }
+
+  .about-content2 {
+    height: auto;
+  }
+
+  .pets {
+    height: auto;
+  }
+
+  .pets-content {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .pets-heading {
+    width: 300px;
+    height: 64px;
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin: auto;
+    padding-top: 42px;
+  }
+
+  .pets-cards1 {
+    margin: auto;
+  }
+  .pets-cards2 {
+    display: none;
+  }
+
+  .pets-slider {
+    padding-bottom: 208px;
+  }
+
+  .pets-slider-left {
+    top: 74%;
+    left: 14%;
+  }
+
+  .pets-slider-right {
+    top: 74%;
+  }
+
+  .pets-button-primary {
+    margin: auto;
+    left: 35px;
+    top: 85%;
+  }
+
+  .help-content-header {
+    width: 220px;
+    height: 64px;
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+  }
+
+  .help-list {
+    width: 290px;
+  }
+
+  .help-list-item {
+    width: 130px;
+  }
+
+  .help-list-item p {
+    width: 130px;
+    height: 17px;
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    color: #545454;
+  }
+
+  .donation-text h3 {
+    width: 208px;
+    height: 64px;
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin: auto;
+    margin-bottom: 20px;
+  }
 }
