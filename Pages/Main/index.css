@@ -277,7 +277,7 @@ header a {
 }
 
 .pets-content {
-  position: absolute;
+  position: relative;
   width: 1200px;
   height: 697px;
   left: calc(50% - 1200px / 2);
@@ -817,6 +817,93 @@ footer {
   text-decoration: none;
 }
 
+.burger-menu {
+  display: none;
+  position: relative;
+  z-index: 1;
+}
+
+.burger-screen {
+  display: none;
+  background-color: #292929;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  flex-direction: column;
+  justify-content: center;
+  transition: 1s;
+}
+.burger-screen h4 {
+  width: 243px;
+  height: 51px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 160%;
+  color: #fafafa;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.burger-screen h4:hover {
+  cursor: pointer;
+  border-bottom: 3px solid #f1cdb3;
+}
+
+.logo-wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+.pet-card-cover {
+  position: absolute;
+  width: 900px;
+  left: 181px;
+  top: 30px;
+  bottom: 172px;
+  background-color: #fafafa;
+  display: flex;
+}
+
+.pet-card-cover-context h2 {
+  font-family: "Georgia";
+  width: 145px;
+  height: 45px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  color: #000000;
+  letter-spacing: 0.06em;
+}
+
+.pet-card-cover-context h3 {
+  width: 155px;
+  height: 23px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #000000;
+}
+
+.pet-card-cover-context p {
+  width: 350px;
+  height: 102px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 110%;
+  letter-spacing: 0.06em;
+  color: #000000;
+}
+
 @media screen and (max-width: 1280px) {
   header {
     width: 100%;
@@ -1112,6 +1199,11 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
+  .burger-menu {
+    display: block;
+    margin-right: 53px;
+  }
+
   .nav-menu {
     display: none;
   }
